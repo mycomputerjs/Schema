@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2023-03-09T16:22:28.718Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/16.1 Safari/605.1.15" etag="hCY4vrsX9nvs9vFKL7yZ" version="21.0.6" type="github">
+<mxfile host="app.diagrams.net" modified="2023-03-13T20:19:51.089Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/16.1 Safari/605.1.15" etag="enD2ZErjBlqfrpmD0km3" version="21.0.6" type="github">
   <diagram name="Page-1" id="aqzSEFVoJFHqQNgd3VVb">
-    <mxGraphModel dx="932" dy="543" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="932" dy="541" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -64,12 +64,15 @@
           <mxGeometry x="225" y="805" width="50" height="30" as="geometry" />
         </mxCell>
         <mxCell id="S3jGKOnGl26qvgYpY_Zq-17" value="Jouer sans runtime js&lt;br&gt;Le serveur gère tout les runtimes" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="450" y="880" width="120" height="60" as="geometry" />
+          <mxGeometry x="390" y="880" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="S3jGKOnGl26qvgYpY_Zq-30" value="déjà installer" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" parent="1" source="BerzzyQYtAbFCqOwYjUJ-15" target="S3jGKOnGl26qvgYpY_Zq-29" edge="1">
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="244" y="1070" as="sourcePoint" />
           </mxGeometry>
+        </mxCell>
+        <mxCell id="H8BaFVq6ltL_H8aYbswn-4" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="S3jGKOnGl26qvgYpY_Zq-29" target="H8BaFVq6ltL_H8aYbswn-3">
+          <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="S3jGKOnGl26qvgYpY_Zq-29" value="Jouer normalement et relancer les runtimes dernièrement lancé" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="30" y="1120" width="120" height="60" as="geometry" />
@@ -101,6 +104,9 @@
             <mxPoint x="370" y="740" as="sourcePoint" />
           </mxGeometry>
         </mxCell>
+        <mxCell id="H8BaFVq6ltL_H8aYbswn-2" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" source="BerzzyQYtAbFCqOwYjUJ-18" target="H8BaFVq6ltL_H8aYbswn-1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
         <mxCell id="BerzzyQYtAbFCqOwYjUJ-18" value="Jouer normalement et relancer les runtimes dernièrement lancé" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="414" y="610" width="120" height="60" as="geometry" />
         </mxCell>
@@ -115,6 +121,12 @@
         </mxCell>
         <mxCell id="K3gSSxGhBDOdbTLB4Htz-11" value="Alert dans le chat" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="490" y="1090" width="89" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="H8BaFVq6ltL_H8aYbswn-1" value="lancer node&lt;br&gt;+lancer les startup.js&lt;br&gt;des pc" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="414" y="479" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="H8BaFVq6ltL_H8aYbswn-3" value="lancer node&lt;br&gt;+lancer les startup.js&lt;br&gt;des pc" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="30" y="1248" width="120" height="60" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
